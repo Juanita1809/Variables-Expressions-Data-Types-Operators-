@@ -1,0 +1,22 @@
+# Boolean comparisons
+print(5 == (3 + 2))  # True
+print(1 == 2)        # False
+print("bob" == "Bob")  # False 
+
+x = 9
+print(50 < x)  # True
+
+# Assign Boolean value to a variable
+is_greater = 50 < x  # True
+
+# Using Boolean variable in an if-else statement
+if is_greater:
+    print("x is greater than 6!")
+else:
+    print("x is not greater than 6.")
+
+# Using Boolean variable in a loop
+count = 0
+while is_greater and count < 3:
+    print(f"Loop iteration {count}")
+    count += 1  # Increment counter to avoid infinite loop
